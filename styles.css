@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url(./moroccan-flower.png) repeat 0 0;
+}
+
+h1 {
+  padding: 10px;
+  font-family: 'Josefin Sans', sans-serif;;
+}
+
+#app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app {
+  background:#E9E9E9;
+  padding: 30px;
+  height: 100vh;
+  font-family:'Dongle', sans-serif;
+  font-size: 30px;
+
+}
+
+.todo-list{
+  background: #99d3df;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 400px;
+}
+
+.todo{
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0,0,0, 0.15);
+  padding: 3px 10px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input{
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  padding: 1rem;
+  height: 2.25em;
+  font-size: 24px;
+}
+
+
+.btn {
+  background-color: #88bbd6;
+}
+
+.alert {
+  max-width: 400px;
+  background-color: #99d3df;
+  text-align: center;
+}
