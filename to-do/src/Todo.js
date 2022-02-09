@@ -13,3 +13,4 @@ function Todo({todo, index, remove}) {
     ) 
 }
 
+export default Todo;

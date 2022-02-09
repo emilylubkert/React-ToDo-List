@@ -15,3 +15,5 @@ function AllDone({ allDone }){
 
 
 }
+
+export default AllDone;
